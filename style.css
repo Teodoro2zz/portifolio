@@ -184,17 +184,17 @@ canvas {
 
   .site-title {
     font-size: 1.2rem;
-    margin-bottom: 15px; /* Added spacing below site title */
+    margin-bottom: 10px; /* Reduced spacing below site title */
   }
 
   .nav-menu ul {
     flex-direction: column; /* Stack nav links vertically */
-    gap: 10px;
+    gap: 8px; /* Reduced gap */
   }
 
   .nav-menu ul li a {
-    font-size: 1rem; /* Slightly increased font size for tap targets */
-    padding: 10px 14px; /* Increased padding for better tap targets */
+    font-size: 0.95rem; /* Slightly smaller font size */
+    padding: 6px 10px; /* Reduced padding for more compact layout */
   }
 }
 
