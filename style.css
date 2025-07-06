@@ -188,13 +188,16 @@ canvas {
   }
 
   .nav-menu ul {
-    flex-direction: column; /* Stack nav links vertically */
-    gap: 8px; /* Reduced gap */
+    display: flex; /* Keep horizontal layout */
+    overflow-x: auto; /* Allow horizontal scroll */
+    white-space: nowrap; /* Prevent wrapping */
+    gap: 12px; /* Moderate gap */
   }
 
   .nav-menu ul li a {
-    font-size: 0.95rem; /* Slightly smaller font size */
-    padding: 6px 10px; /* Reduced padding for more compact layout */
+    font-size: 0.85rem; /* Smaller font size */
+    padding: 6px 8px; /* Smaller padding */
+    white-space: nowrap; /* Prevent link text wrapping */
   }
 }
 
