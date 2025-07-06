@@ -1,0 +1,91 @@
+main {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .header-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .nav-menu ul {
+    gap: 15px;
+  }
+}
+=======
+@media (max-width: 768px) {
+  main {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .header-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .site-title {
+    margin-bottom: 15px; /* Added spacing below site title */
+  }
+
+  .nav-menu ul {
+    gap: 15px;
+  }
+}
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+@media (max-width: 480px) {
+  main {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .header-bar {
+    padding: 15px;
+  }
+
+  .site-title {
+    font-size: 1.2rem;
+  }
+
+  .nav-menu ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-menu ul li a {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+}
+=======
+@media (max-width: 480px) {
+  main {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .header-bar {
+    padding: 15px;
+  }
+
+  .site-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px; /* Added spacing below site title */
+  }
+
+  .nav-menu ul {
+    flex-direction: column; /* Stack nav links vertically */
+    gap: 10px;
+  }
+
+  .nav-menu ul li a {
+    font-size: 1rem; /* Slightly increased font size for tap targets */
+    padding: 10px 14px; /* Increased padding for better tap targets */
+  }
+}
